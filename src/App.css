@@ -1,0 +1,93 @@
+.container__timer{
+    max-width: 380px;
+    height: 100dvh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer__title{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.timer{
+    width: 100%;
+    padding: .5rem;
+}
+
+/* MODAL TIMER */
+.modal__timer{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    font-size: 40px;
+}
+
+.modal__button{
+    display: flex;
+    gap: 1.5rem;
+    margin: .5rem 0;
+}
+
+.plus, .minus{
+    padding: 3px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.modal__timer__buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.modal__buttons{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+}
+
+.modal__buttons.start{
+    background-color: rgba(16, 86, 16, 0.686);
+    border: 1px solid #166316;
+    color: #19da19;
+}
+
+.modal__buttons.stop{
+    background-color: rgba(143, 98, 14, 0.686);
+    border: 1px solid #a77009;;
+    color: #ffa500;
+}
+
+.modal__buttons.restart{
+    background-color: rgba(112, 10, 10, 0.686);
+    border: 1px solid #710a0a;
+    color: #ed1414;
+}
+
+/* TIMER__PROGRESS */
+.timer__progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.timer__menu{
+    cursor: pointer;
+    color: #ffa500;
+}
