@@ -8,8 +8,7 @@ const ModalTimer = ({
   getTimer,
   toggleTimer,
   resetTimer,
-  isActive,
-  isOpen
+  isActive
 }) => {
   return (
     <div className="modal__timer">
@@ -48,6 +47,7 @@ const ModalTimer = ({
       isActive={isActive}
       toggleTimer={toggleTimer}
       resetTimer={resetTimer}
+      time={time}
       />
       
     </div>

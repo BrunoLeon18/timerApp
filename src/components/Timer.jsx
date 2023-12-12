@@ -21,7 +21,6 @@ const Timer = () => {
     } else if (time === 0) {
       setIsActive(false);
       playAlarm()
-      console.log(playAlarm())
     }
   }, [isActive, time,]);
 
@@ -44,7 +43,6 @@ const Timer = () => {
   percentage.toFixed(2);
 
   const toggleTimer = () => {
-    // setIsActive(!isActive);
     if (setIsActive(!isActive)) {
       setIsOpen(true);
     } else {
