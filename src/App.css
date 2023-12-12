@@ -15,7 +15,7 @@
 
 .timer{
     width: 100%;
-    padding: .5rem;
+    padding: 1.8rem;
 }
 
 /* MODAL TIMER */
@@ -33,7 +33,7 @@
 .modal__button{
     display: flex;
     gap: 1.5rem;
-    margin: .5rem 0;
+    margin: 1rem 0;
 }
 
 .plus, .minus{
@@ -56,8 +56,8 @@ i{
 
 .modal__buttons{
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     color: #ffffff;
 }
 
@@ -88,7 +88,6 @@ i{
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-    padding-bottom: 1rem;
 }
 
 .timer__menu{
